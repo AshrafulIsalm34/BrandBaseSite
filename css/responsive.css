@@ -1,0 +1,39 @@
+/* // Medium devices (tablets, 768px and up) */
+
+@media (max-width: 992px) { 
+	.navbar-toggler {
+	    padding: 1.25rem 1.25rem;
+	    background-color: #03a9f4;
+	    border: 1px solid #f9f9f9;
+	}
+	button {
+    	margin-right: 0px;
+	}
+	.navbar-nav {
+	    text-align: center;
+	}
+	.navbar-nav .nav-link::after {
+	    width: 15%;
+	}
+	.re_card{
+		margin-bottom: 70px;
+	}
+	.price_section::before {
+	    background: linear-gradient(160deg,#16c9f6 55%,#e4e6f1 0%);
+	}
+	.carousel-control-prev {
+	    left: 10px;
+	}
+	.carousel-control-next {
+	    right: 10px;
+	}
+
+}
+
+
+/* // small devices (mobile, 767px and down) */
+@media (max-width: 767px){
+	.box {
+	    margin-bottom: 30px;
+	}
+}
